@@ -29,7 +29,7 @@ const texto1 = `اغــنيــههة 乂 يـوتـيـوب\n
 await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
 	['الصوت 📀', `${usedPrefix}mp3 ${text}`],
 	['الفيديو 🎥', `${usedPrefix}mp4 ${text}`]
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029VaRygQcATRSk29RI4P1x`]], m)
+  ], null, [['مجموعتي ⚡', `https://chat.whatsapp.com/K7C0z73crjY0hQAVpKspmQ`]], m)
 	  }
   
             if (command == "mp3") {
@@ -98,7 +98,7 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
 	['Menu', `${usedPrefix}menu`]
-  ], null, [['قناتي ⚡', `${channel}`]], m)
+  ], null, [['مجموعتي ⚡', `${my groupe}`]], m)
        */
        try {
        let yt = await fg.ytv(vid.url, q)
@@ -141,7 +141,7 @@ if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أ
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
 	['Menu', `${usedPrefix}menu`]
-  ], null, [['قناتي ⚡', `${channel}`]], m)
+  ], null, [['مجموعتي ⚡', `${my groupe}`]], m)
 	    */
        try {
        let yt = await fg.yta(vid.url, q)
@@ -202,7 +202,7 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
 await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
 	['Creador', `${usedPrefix}creador`],
 	['Menu', `${usedPrefix}menu`]
-  ], null, [['قناتي ⚡', `${channel}`]], m)
+  ], null, [['مجموعتي ⚡', `${my groupe}`]], m)
   */
        
        try {
